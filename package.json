@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "name": "parallel-typescript",
+  "author": "Evgeniy Timokhov",
+  "license": "MIT",
+  "description": "Not yet",
+  "bin": {
+    "ptsc": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/timocov/parallel-typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timocov/parallel-typescript.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "engines": {
+    "node": ">=11.0.0"
+  },
+  "dependencies": {
+    "typescript": ">=3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "clean-publish": "~1.1.2",
+    "tslint": "5.20.1",
+    "tslint-eslint-rules": "~5.4.0",
+    "tslint-microsoft-contrib": "~6.2.0",
+    "typescript": "3.7.2",
+    "vrsource-tslint-rules": "6.0.0"
+  },
+  "scripts": {
+    "clean": "rm index.js",
+    "tsc": "tsc"
+  }
+}
