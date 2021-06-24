@@ -23,6 +23,7 @@
     "node": ">=11.0.0"
   },
   "dependencies": {
+    "cmd-ts": "^0.7.0",
     "typescript": ">=4.3.4"
   },
   "devDependencies": {
