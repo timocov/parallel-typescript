@@ -1,6 +1,8 @@
 # parallel-typescript
 
-**IT USES THE PRIVATE COMPILER'S API SO PLEASE DON'T USE IT IN PRODUCTION. IT'S JUST A POC!**
+**This project is not maintained anymore, it was created just to show that if you run typescript in parallel _sometimes_ it might be much faster than it is. If you have something to say, please do it in https://github.com/microsoft/TypeScript/issues/30235.**
+
+**IT USES THE PRIVATE COMPILER'S API SO PLEASE DON'T USE IT IN PRODUCTION. IT'S JUST A PoC!**
 
 This is a test repo of straightforward implementation of parallel compilation of TypeScript's composite projects.
 
